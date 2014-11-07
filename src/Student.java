@@ -17,6 +17,14 @@ public class Student {
 		
 }
 public void displayStudentDetails() {
-	System.out.println("Name: " + name + "Gender" + gender + " Age " + age + "Module" + module);
+	System.out.println("Name: " + name + " Gender" + gender + " Age " + age + " Module" + module);
 	
-}}
+	}
+
+public void changeName(String name){
+	this.name = name;
+}
+
+
+
+}
